@@ -1,0 +1,8 @@
+#card-amigo {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#card-amigo:hover {
+  box-shadow: 10px 5px 5px rgba(1, 1, 1, 0.5);
+  transform: scale(1.05); /* Opcional: un ligero zoom */
+}

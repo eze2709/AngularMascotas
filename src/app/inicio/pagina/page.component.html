@@ -1,0 +1,56 @@
+<!-- <navbarComponente style="background: #6edff6;" [logo]="imagenlogos.logo">
+
+</navbarComponente> -->
+
+<section id="sectionPortadaCarrousel">
+
+  <app-portada [portada_img]="imagenlogos.portada" ></app-portada>
+
+</section>
+
+
+<div class="cards-amigos" style="padding: 100px;">
+
+  <div class="row">
+
+    <section id="sectionCardAmigos">
+
+      <div class="col-12">
+        <h3>Amigos en adopción</h3>
+      </div>
+
+      <div class="col-12 row">
+        <cardAmigos class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3"
+                    *ngFor="let mascota of mascotas"
+                    [imagenUrl]="mascota.imagenUrl"
+                    [nombre]="mascota.nombre"
+                    [edad]="mascota.edad"
+                    [caracteristicas]="mascota.caracteristicas">
+        </cardAmigos>
+      </div>
+
+    </section>
+
+    <section id="sectionCardAuspi" class="mt-5">
+
+      <div class="col-12">
+        <h3>Auspiciantes</h3>
+      </div>
+
+      <div class="col-12 row">
+
+        <auspiciantes class="col-sm-6 col-md-6 col-lg-2 col-xl-1 col-xxl-1 m-5"
+                    *ngFor="let auspiciante of auspiciantes"
+                    [imagenAus]="auspiciante.imagenAus">
+        </auspiciantes>
+      </div>
+
+    </section>
+
+
+  </div>
+
+</div>
+<Compfooter [logofoter]="imagenlogos.logofoter" [logoTwitter]="imagenlogos.logoTwitter" [logoInstagram]="imagenlogos.logoInstagram" [logoFacebook]="imagenlogos.logoFacebook">
+
+</Compfooter>

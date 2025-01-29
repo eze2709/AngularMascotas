@@ -1,0 +1,49 @@
+#navbar-color{
+  background: #6DD4FF;
+}
+
+.nav-link{
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.nav-item:hover{
+
+  background-color: #6DD4FF;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+
+#Btnregistr{
+  border: solid 2px #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  color: #4d4c4c;
+  font-weight: 800;
+  padding: 10px;
+}
+
+#Btnregistr:hover{
+  background-color: #1286CF;
+  color: #ffffff;
+}
+
+#Btnlogin{
+  border: solid 2px #000000;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #eeecec;
+  color: #4d4c4c;
+  font-weight: 800;
+  padding: 10px;
+}
+
+#Btnlogin:hover{
+
+  background-color: #1286CF;
+  color: #ffffff;
+
+}

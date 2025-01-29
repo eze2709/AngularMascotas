@@ -1,0 +1,37 @@
+<!-- <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img [src]="portada_img" class="d-block w-100" alt="..." height="650">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
+<div
+  class="container-fluid row"
+  id="portada_Amigos"
+  [ngStyle]="{'background-image': 'url(' + portada_img + ')'}">
+
+
+  <div class="offset-md-1 col-2" id="card_amigosPortada">
+
+    <div class="card" style="width: 30rem;" id="card_conoceMas" >
+      <div class="card-body">
+        <h4 class="card-title">Fundación Amigos Felices</h4>
+        <p class="card-text">Aqui usted encontrara de todo para sus mascotas comida, accesorios, productos de salud y mucho más!</p>
+        <a href="#" class="btn btn-primary" id="btn_conocemas">Conoce mas...</a>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+

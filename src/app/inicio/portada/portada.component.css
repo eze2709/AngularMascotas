@@ -1,0 +1,40 @@
+#portada_Amigos {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+}
+
+#card_amigosPortada{
+
+  padding: 10px;
+  margin-top:8% ;
+
+}
+
+#card_conoceMas{
+
+  padding: 10px;
+  background: #6DD4FF;
+
+}
+
+#card_conoceMas:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-body{
+  text-align: center;
+}
+
+#btn_conocemas{
+  background: white;
+  color: black;
+}
+
+#btn_conocemas:hover{
+  border: solid black 2px;
+}
