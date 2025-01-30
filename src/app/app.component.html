@@ -1,5 +1,11 @@
 <!-- <pageInicio></pageInicio> -->
-<navbarComponente style="background: #6edff6;" >
+<navbarComponente style="background: #6edff6;" [logo]="imagenlogos.logo">
 
 </navbarComponente>
+
  <router-outlet></router-outlet>
+
+
+ <Compfooter [logofoter]="imagenlogos.logofoter" [logoTwitter]="imagenlogos.logoTwitter" [logoInstagram]="imagenlogos.logoInstagram" [logoFacebook]="imagenlogos.logoFacebook">
+
+ </Compfooter>

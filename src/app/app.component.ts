@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DatosService } from './datos/datos.service'
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'amigosNew';
 
+  imagenlogos: any;
 
+  constructor(private datosService: DatosService) {}
+
+  ngOnInit(): void {
+    this.imagenlogos = this.datosService.getImagenLogos();
+  }
 
 }
