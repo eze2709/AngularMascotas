@@ -1,20 +1,21 @@
-
-<div class="card mb-3 mt-2" id="card-amigo" style="padding: 16px;">
-  <div class="row g-0 align-items-center">
-    <!-- Imagen -->
-    <div class="col-12 col-md-4">
-      <img [src]="imagenUrl" [alt]="nombre" class="img-fluid rounded-start w-100 object-fit-cover img-amigo">
-    </div>
-    <!-- Contenido -->
-    <div class="col-12 col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{ nombre | uppercase }}</h5>
-        <p class="card-text">{{ caracteristicas }}</p>
-        <p class="card-text">
-          <small class="text-body-secondary">{{ edad }}</small>
-          <input type="hidden" [value]="id">
-        </p>
+<a [routerLink]="['/adoptar', id]">
+  <div class="card mb-3 mt-2" id="card-amigo" style="padding: 16px;">
+    <div class="row g-0 align-items-center">
+      <!-- Imagen -->
+      <div class="col-12 col-md-4">
+        <img [src]="imagenUrl" [alt]="nombre" class="img-fluid rounded-start w-100 object-fit-cover img-amigo">
+      </div>
+      <!-- Contenido -->
+      <div class="col-12 col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ nombre | uppercase }}</h5>
+          <p class="card-text">{{ caracteristicas }}</p>
+          <p class="card-text">
+            <small class="text-body-secondary">{{ edad }}</small>
+            <input type="hidden" [value]="id">
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</a>

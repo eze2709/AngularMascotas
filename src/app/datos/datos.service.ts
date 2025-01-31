@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class DatosService {
 
-  constructor() { console.log( this.getMascotas())}
+  constructor() { }
 
    // Datos de imágenes
    getImagenLogos() {
@@ -22,14 +22,14 @@ export class DatosService {
   // Datos de mascotas
   getMascotas() {
     return [
-      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo',id:1 },
-      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'juguetón, leal' ,id:2},
-      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' ,id:3},
-      { imagenUrl: 'imagen/mascota3.png', nombre: 'lucas', edad: '3 años', caracteristicas: 'amigable, obediente',id:4 },
-      { imagenUrl: 'imagen/mascota4.png', nombre: 'sasha', edad: '5 meses', caracteristicas: 'traviesa, cariñosa' ,id:5},
-      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo' ,id:6},
-      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'lorem, leal' ,id:7},
-      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' ,id:8}
+      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea.",id:1 },
+      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'juguetón, leal',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea." ,id:2},
+      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' ,descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea.",id:3},
+      { imagenUrl: 'imagen/mascota3.png', nombre: 'lucas', edad: '3 años', caracteristicas: 'amigable, obediente',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea.",id:4 },
+      { imagenUrl: 'imagen/mascota4.png', nombre: 'sasha', edad: '5 meses', caracteristicas: 'traviesa, cariñosa',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea." ,id:5},
+      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea." ,id:6},
+      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'lorem, leal',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea." ,id:7},
+      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa',descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis quis officia voluptate? Aperiam consequuntur iure, quaerat quae id blanditiis, modi est libero nobis eligendi reprehenderit quas a soluta ea." ,id:8}
     ];
   }
 
