@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class DatosService {
 
-  constructor() { }
+  constructor() { console.log( this.getMascotas())}
 
    // Datos de imágenes
    getImagenLogos() {

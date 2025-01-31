@@ -10,4 +10,4 @@ import { Component, Input } from '@angular/core';
 export class NavbarComponent {
   @Input() logo: string | undefined;
 }
-//
+
