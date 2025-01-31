@@ -1,10 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { DatosService } from './../../datos/datos.service';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-adoptar-c',
-  standalone: false,
+  standalone: true,
+  imports:[CommonModule],
   templateUrl: './adoptar-c.component.html',
   styleUrl: './adoptar-c.component.css'
 })
@@ -13,6 +15,7 @@ export class AdoptarCComponent {
   mascota: any = {};  // Aquí guardaremos los datos de la mascota
   mascotas: any[] = [];
   parametroId: number | null = null;  // Cambié el tipo a 'number'
+  mostrarContenido: boolean = true;
 
   constructor(
     private route: ActivatedRoute,  // Para obtener parámetros de la URL
@@ -28,6 +31,7 @@ export class AdoptarCComponent {
       this.parametroId = parseInt(params.get('id') || '', 10); // Usamos el operador '+' para convertir a número
       if (isNaN(this.parametroId)) {
         console.log('El id no es válido');
+        this.mostrarContenido = false; // Oculta el HTML si la mascota no existe
       } else {
         this.buscarMascotasPorId(this.parametroId);  // Usamos 'parametroId' si es válido
       }
@@ -41,6 +45,14 @@ export class AdoptarCComponent {
     // Si no se encuentra la mascota, mostramos un mensaje
     if (!this.mascota) {
       console.log('Mascota no encontrada');
+      this.mostrarContenido = false; // Oculta el HTML si la mascota no existe
+    } else {
+      this.mostrarContenido = true; // Muestra el HTML si la mascota existe
     }
   }
+
+
+
+
+
 }
