@@ -13,6 +13,7 @@ export class CardAmigosComponent {
   @Input() nombre: string = "";
   @Input() edad: string = "";
   @Input() caracteristicas: string = "";
+  @Input() id: string = "";
 
 
 

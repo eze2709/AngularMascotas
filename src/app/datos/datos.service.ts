@@ -22,14 +22,14 @@ export class DatosService {
   // Datos de mascotas
   getMascotas() {
     return [
-      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo' },
-      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'juguetón, leal' },
-      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' },
-      { imagenUrl: 'imagen/mascota3.png', nombre: 'lucas', edad: '3 años', caracteristicas: 'amigable, obediente' },
-      { imagenUrl: 'imagen/mascota4.png', nombre: 'sasha', edad: '5 meses', caracteristicas: 'traviesa, cariñosa' },
-      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo' },
-      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'lorem, leal' },
-      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' }
+      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo',id:1 },
+      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'juguetón, leal' ,id:2},
+      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' ,id:3},
+      { imagenUrl: 'imagen/mascota3.png', nombre: 'lucas', edad: '3 años', caracteristicas: 'amigable, obediente',id:4 },
+      { imagenUrl: 'imagen/mascota4.png', nombre: 'sasha', edad: '5 meses', caracteristicas: 'traviesa, cariñosa' ,id:5},
+      { imagenUrl: 'imagen/mascota.png', nombre: 'SEÑORA', edad: '8 meses', caracteristicas: 'tierno, tranquilo' ,id:6},
+      { imagenUrl: 'imagen/mascota.png', nombre: 'toby', edad: '2 años', caracteristicas: 'lorem, leal' ,id:7},
+      { imagenUrl: 'imagen/mascota2.png', nombre: 'mila', edad: '1 año', caracteristicas: 'curiosa, activa' ,id:8}
     ];
   }
 

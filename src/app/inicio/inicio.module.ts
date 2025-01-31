@@ -5,6 +5,7 @@ import { NavbarModuloModule } from '../navbar-modulo/navbar-modulo.module';
 import { PageComponent } from './pagina/page.component';
 import { AuspiciantesComponent } from './auspiciantes/auspiciantes.component';
 import { PortadaComponent } from './portada/portada.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PortadaComponent } from './portada/portada.component';
 
   imports: [
     CommonModule,
-    NavbarModuloModule
+    NavbarModuloModule,
+    RouterModule
   ],
 
   exports:[
