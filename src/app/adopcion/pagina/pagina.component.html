@@ -1,0 +1,17 @@
+<!-- <app-card-grupal></app-card-grupal> -->
+
+<app-card-individual></app-card-individual>
+
+<div class="col-12 row">
+  <cardAmigos class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3"
+              *ngFor="let mascotas of mascota"
+              [imagenUrl]="mascotas.imagenUrl"
+              [nombre]="mascotas.nombre"
+              [edad]="mascotas.edad"
+              [caracteristicas]="mascotas.caracteristicas"
+              [id]="mascotas.id">
+  </cardAmigos>
+
+
+
+</div>

@@ -1,16 +1,17 @@
-import { CommonModule } from '@angular/common';
-import { DatosService } from './../../datos/datos.service';
 import { Component } from '@angular/core';
+import { DatosService } from './../../datos/datos.service';
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
-  selector: 'app-adoptar-c',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './adoptar-c.component.html',
-  styleUrl: './adoptar-c.component.css'
+  selector: 'app-card-individual',
+  standalone: false,
+
+  templateUrl: './card-individual.component.html',
+  styleUrl: './card-individual.component.css'
 })
-export class AdoptarCComponent {
+export class CardIndividualComponent {
+
 
   mascota: any = {};  // Aquí guardaremos los datos de la mascota
   mascotas: any[] = [];
@@ -50,8 +51,6 @@ export class AdoptarCComponent {
       this.mostrarContenido = true; // Muestra el HTML si la mascota existe
     }
   }
-
-
 
 
 

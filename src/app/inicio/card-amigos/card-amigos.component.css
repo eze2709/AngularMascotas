@@ -6,3 +6,7 @@
   box-shadow: 10px 5px 5px rgba(1, 1, 1, 0.5);
   transform: scale(1.05); /* Opcional: un ligero zoom */
 }
+
+a{
+  text-decoration: none;
+}
