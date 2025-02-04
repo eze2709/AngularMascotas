@@ -8,7 +8,7 @@ import { DatosService } from './datos/datos.service'
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'amigosNew';
+  title = 'Amigos';
 
   imagenlogos: any;
 
