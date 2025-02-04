@@ -1,40 +1,37 @@
 #portada_Amigos {
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
   width: 100vw;
+  display: flex;
 }
 
-#card_amigosPortada{
-
+#card_amigosPortada {
   padding: 10px;
-  margin-top:8% ;
-
+  margin-top: 5%;
 }
 
-#card_conoceMas{
-
+#card_conoceMas {
   padding: 10px;
   background: #6DD4FF;
-
 }
 
-#card_conoceMas:hover{
+#card_conoceMas:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-.card-body{
+.card-body {
   text-align: center;
 }
 
-#btn_conocemas{
+#btn_conocemas {
   background: white;
   color: black;
 }
 
-#btn_conocemas:hover{
+#btn_conocemas:hover {
   border: solid black 2px;
 }
