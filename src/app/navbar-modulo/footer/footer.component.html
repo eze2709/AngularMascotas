@@ -1,107 +1,67 @@
-<footer class="py-5" style="background-color: rgb(255, 255, 255); border-top: solid 1px rgb(0, 0, 0)" id="contactoFoter">
+<footer class="py-5" style="background-color: #fff; border-top: solid 1px #000" id="contactoFoter">
   <div class="container">
     <div class="row align-items-center">
       <!-- Imagen -->
-      <div class="col-3">
+      <div class="col-12 col-md-3 text-center text-md-start">
         <img [src]="logofoter" alt="Logo Footer" class="img-fluid">
       </div>
 
       <!-- Contenido al lado de la imagen -->
-      <div class="col-9">
+      <div class="col-12 col-md-9 mt-4 mt-md-0">
         <div class="row">
           <!-- Primera columna -->
-          <div class="col-3">
+          <div class="col-6 col-md-3 mb-3">
             <h5>Atención</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Centro de atencíon</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos y condiciones</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Centro de atención</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Términos y condiciones</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted border-top">contacto&#64;amigosfelices.com.ar</a>
-              </li>
-
-
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted border-top">contacto&#64;amigosfelices.com.ar</a></li>
             </ul>
           </div>
 
           <!-- Segunda columna -->
-            <div class="col-3">
-              <h5>Redes Sociales</h5>
-              <ul class="nav flex-column">
-                <div class="row text-center">
-                  <!-- Facebook -->
-                  <div class="col-4">
-                    <li class="nav-item">
-                      <a href="https://www.facebook.com" target="_blank" class="nav-link text-muted">
-                        <img [src]="logoFacebook" alt="Facebook" class="img-fluid rounded-circle" id="btnfacebook" width="35" height="30">
-                        <!-- <span class="d-block mt-1">Facebook</span> -->
-                      </a>
-                    </li>
-                  </div>
-                  <!-- Instagram -->
-                  <div class="col-4 div_imgRed">
-                    <li class="nav-item">
-                      <a href="https://www.instagram.com" target="_blank" class="nav-link text-muted">
-                        <img [src]="logoInstagram"  alt="Instagram" class="img-fluid rounded-circle" id="btninstagram" width="35" height="30">
-                        <!-- <span class="d-block mt-1">Instagram</span> -->
-                      </a>
-                    </li>
-                  </div>
-                  <!-- Twitter -->
-                  <div class="col-4 div_imgRed">
-                    <li class="nav-item">
-                      <a href="https://www.twitter.com" target="_blank" class="nav-link text-muted">
-                        <img [src]="logoTwitter"  alt="Twitter" class="img-fluid rounded-circle" id="btntwitter" width="35" height="30">
-                        <!-- <span class="d-block mt-1">Twitter</span> -->
-                      </a>
-                    </li>
-                  </div>
-                </div>
-              </ul>
+          <div class="col-6 col-md-3 mb-3">
+            <h5>Redes Sociales</h5>
+            <div class="d-flex justify-content-start">
+              <a href="https://www.facebook.com" target="_blank" class="me-2">
+                <img [src]="logoFacebook" alt="Facebook" class="img-fluid rounded-circle" width="35" height="35">
+              </a>
+              <a href="https://www.instagram.com" target="_blank" class="me-2">
+                <img [src]="logoInstagram" alt="Instagram" class="img-fluid rounded-circle" width="35" height="35">
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                <img [src]="logoTwitter" alt="Twitter" class="img-fluid rounded-circle" width="35" height="35">
+              </a>
             </div>
-
-          <!-- tercera columna -->
-          <div class="col-3">
-            <h5>Política</h5>
-            <ul class="nav flex-column">
-              <div class="row">
-                <!-- Facebook -->
-                <div class="col-12">
-                  <li class="nav-item">
-                    <a href="" target="_blank" class="nav-link text-muted">
-                      <p id="polit_txt">Políticas de Privacidad</p>
-                      <!-- <span class="d-block mt-1">Facebook</span> -->
-                    </a>
-                  </li>
-                </div>
-
-              </div>
-            </ul>
           </div>
 
-          <!-- cuarta columna -->
-          <div class="col-3">
+          <!-- Tercera columna -->
+          <div class="col-6 col-md-3 mb-3">
+            <h5>Política</h5>
+            <a href="#" class="nav-link text-muted">Políticas de Privacidad</a>
+          </div>
+
+          <!-- Cuarta columna -->
+          <div class="col-6 col-md-3 mb-3">
             <h5>Institucional</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fundacion</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quienes somos</a></li>
-
-
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fundación</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quiénes somos</a></li>
             </ul>
           </div>
-
         </div>
       </div>
     </div>
 
     <!-- Derechos reservados y redes sociales -->
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
-      <p>© 2021 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
+    <div class="d-flex flex-column flex-md-row justify-content-between py-4 my-4 border-top text-center text-md-start">
+      <p class="mb-2 mb-md-0">© 2021 Company, Inc. All rights reserved.</p>
+      <div>
+        <a href="#" class="me-3"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a>
+        <a href="#" class="me-3"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a>
+        <a href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a>
+      </div>
     </div>
   </div>
 </footer>

@@ -1,4 +1,4 @@
-<a [routerLink]="['/adopcion', id]" href="#card_adoptarIndividual">
+<a [routerLink]="['/adopcion', id]" href="#card_adoptarIndividual" class="text-decoration-none">
   <div class="card mb-3 mt-2" id="card-amigo" style="padding: 16px;">
     <div class="row g-0 align-items-center">
       <!-- Imagen -->
@@ -7,7 +7,7 @@
       </div>
       <!-- Contenido -->
       <div class="col-12 col-md-8">
-        <div class="card-body">
+        <div class="card-body text-center text-md-start">
           <h5 class="card-title">{{ nombre | uppercase }}</h5>
           <p class="card-text">{{ caracteristicas }}</p>
           <p class="card-text">
